@@ -22,7 +22,7 @@ async def startup_edit(_message_id, _message_):
         )
         return AsuXwtf
     except:
-        AsuXwtf = await startup_send_new(_message_)
+        AsuXwtf = await (_message_)
         return AsuXwtf
 
 
